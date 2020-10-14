@@ -5,6 +5,7 @@ sentance_as_array  = []
 sentance_as_array << "#{sentance}"
 letters_as_array = []
 count = 0
+<<<<<<< HEAD
 while count < sentance.length do
   letters_as_array << sentance_as_array[0][count]
   count += 1
@@ -29,5 +30,17 @@ word_array.each {|i|
   count +=1
 }
 answer.join(" ")
+=======
+sentance_as_array.each {|i|
+letters_as_array << sentance_as_array[count]
+count += 1 
+}
+
+
+  
+
+
+
+>>>>>>> a8d420193d4feba652553f6125f5b5c4bf633e17
 
 end
